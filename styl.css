@@ -1,0 +1,63 @@
+*
+{
+    font-family: comic sans MS, sans-serif;
+    text-align: center;
+}
+
+nav, footer
+{
+    background-color: #00838F;
+    color: #B2DFDB;
+    padding: 10px;
+}
+
+aside, section
+{
+    width: 50%;
+    height: 600px;
+    overflow: visible;
+}
+
+aside
+{
+    background-color: #B2DFDB;
+}
+
+.wycieczka
+{
+    background-color: rgba(#00838F, 0.7);
+    height: 150px;
+    margin: 10px 100px 10px;
+    border-radius: 30px;
+}
+
+.wycieczka:hover
+{
+    background-color: rgba(#00838F, 1);
+}
+
+img
+{
+    float: right;
+    border-radius: 30px;
+    margin: 7px;
+}
+
+li
+{
+    display: inline-block;
+    list-style-type: none;
+}
+
+a
+{
+    color: #B2DFDB;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
