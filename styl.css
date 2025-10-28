@@ -4,6 +4,11 @@
     text-align: center;
 }
 
+main
+{
+    display: flex;
+}
+
 nav, footer
 {
     background-color: #00838F;
@@ -60,4 +65,5 @@ a:hover
 {
     color: white;
     text-decoration: underline;
+
 }
